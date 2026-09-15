@@ -1,0 +1,24 @@
+/* Local successor: full-frame object assets; compact phone rows, unchanged role copy. */
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families{background-image:none!important;background-color:#141719!important;min-height:0!important;padding-block:48px!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .career-roles__heading{margin-bottom:28px!important;padding-bottom:24px!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-ledger{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important;border:0!important;background:none!important;box-shadow:none!important;backdrop-filter:none!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card{display:flex!important;flex-direction:column!important;align-items:stretch!important;min-width:0!important;min-height:0!important;height:auto!important;max-height:none!important;padding:0!important;gap:0!important;border:1px solid #353a3c!important;background:#191d1f!important;border-radius:4px!important;overflow:hidden!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .role-object-image{display:block!important;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;aspect-ratio:1672/941!important;object-fit:contain!important;flex:0 0 auto!important;margin:0!important;filter:none!important;transform:none!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy{min-width:0!important;padding:20px 24px 24px!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy h3{font-size:22px!important;line-height:1.15!important;margin:0 0 12px!important;letter-spacing:normal!important;}
+body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy p{font-size:16px!important;line-height:1.5!important;margin:0!important;color:#d0d5d7!important;}
+@media(max-width:720px){
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families{padding-block:36px!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .career-roles__heading{gap:18px!important;margin-bottom:8px!important;padding-bottom:24px!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-ledger{grid-template-columns:minmax(0,1fr)!important;gap:0!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card{display:grid!important;grid-template-columns:clamp(140px,40vw,224px) minmax(0,1fr)!important;align-items:center!important;gap:14px 18px!important;border:0!important;border-bottom:1px solid #41494d!important;border-radius:0!important;background:transparent!important;padding:24px 0!important;overflow:visible!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .role-object-image{grid-area:1/1!important;border-radius:3px;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy{display:contents!important;padding:0!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy h3{grid-area:1/2!important;font-size:20px!important;line-height:1.15!important;margin:0!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy p{grid-area:2/1/3/3!important;width:100%!important;}
+}
+@media(forced-colors:active){
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families{background:Canvas!important;color:CanvasText!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card{background:Canvas!important;border-color:CanvasText!important;}
+ body[data-page=careers].careers-final.careers-proof.careers-compact #role-families .careers-role-card__copy :is(h3,p){color:CanvasText!important;}
+}

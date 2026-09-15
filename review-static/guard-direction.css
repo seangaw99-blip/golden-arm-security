@@ -1,0 +1,28 @@
+/* Layout-only Guard app utility module; exact download destinations retained. */
+body[data-page="technology"] #guard-app.guard-download.guard-download--refined{background:#f1f3f4;padding:36px 24px!important;border-bottom:1px solid #d8dde0;scroll-margin-top:96px;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__inner{width:min(1040px,100%)!important;max-width:1040px!important;box-sizing:border-box;margin:auto;display:grid;grid-template-columns:88px minmax(0,1fr);gap:32px;align-items:start;padding:32px!important;background:#fff;border:1px solid #d8dde0;}
+body[data-page="technology"] #guard-app .guard-download__identity{display:flex;flex-direction:column;align-items:center;gap:10px;color:#30383d;}
+body[data-page="technology"] #guard-app .guard-download__identity>svg{display:block;width:60px;height:60px;padding:14px;color:#fff;background:#252b2e;box-sizing:border-box;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__label{font-size:12px;font-weight:700;letter-spacing:0;text-transform:none;line-height:1.4;margin:0;color:#465056;}
+body[data-page="technology"] #guard-app.guard-download--refined h2{max-width:none;color:#171b1e;font-size:clamp(28px,2.3vw,34px);letter-spacing:-.025em;line-height:1.15;margin:0 0 12px;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__copy>p{font-size:16px;font-weight:400;line-height:1.6;margin:0;color:#465056;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__actions{display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;flex-wrap:wrap;gap:8px 28px;min-width:0;margin-top:22px;}
+body[data-page="technology"] #guard-app .guard-download__package{display:flex;flex-direction:column;gap:6px;align-items:flex-start;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__primary{border-radius:4px;background:#feca06;font-size:15px;line-height:1.4;min-height:52px;min-width:248px;padding:14px 22px;gap:16px;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__primary:hover{background:#ffe37a;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__format{font-size:12px!important;line-height:1.5!important;font-weight:400;margin:0!important;color:#525c62;align-self:flex-start!important;text-align:left!important;width:auto!important;}
+body[data-page="technology"] #guard-app.guard-download--refined .guard-download__help{font-size:14px;font-weight:500;min-height:52px;margin:0;color:#30383d;line-height:1.4;text-underline-offset:4px;}
+@media(max-width:720px){
+ body[data-page="technology"] #guard-app.guard-download.guard-download--refined{padding:24px 18px!important;}
+ body[data-page="technology"] #guard-app.guard-download--refined .guard-download__inner{padding:24px!important;grid-template-columns:minmax(0,1fr);gap:20px;}
+ body[data-page="technology"] #guard-app .guard-download__identity{flex-direction:row;justify-content:flex-start;gap:12px;}
+ body[data-page="technology"] #guard-app .guard-download__identity>svg{width:40px;height:40px;padding:9px;}
+ body[data-page="technology"] #guard-app.guard-download--refined .guard-download__label{font-size:14px;}
+ body[data-page="technology"] #guard-app.guard-download--refined h2{font-size:30px;max-width:24ch;}
+ body[data-page="technology"] #guard-app.guard-download--refined .guard-download__actions{gap:10px;display:flex;flex-direction:column;align-items:stretch;}
+ body[data-page="technology"] #guard-app .guard-download__package{width:100%;}
+ body[data-page="technology"] #guard-app.guard-download--refined .guard-download__primary{width:100%;min-width:0;padding-inline:14px;gap:12px;}
+ body[data-page="technology"] #guard-app.guard-download--refined .guard-download__help{min-height:44px;align-self:flex-start;}
+}
+@media(max-width:360px){body[data-page="technology"] #guard-app.guard-download--refined .guard-download__inner{padding:20px!important;}body[data-page="technology"] #guard-app.guard-download--refined h2{font-size:28px;}}
+@media(forced-colors:active){body[data-page="technology"] #guard-app .guard-download__identity>svg{border:1px solid CanvasText;}body[data-page="technology"] #guard-app.guard-download--refined .guard-download__inner{border-color:CanvasText;}}

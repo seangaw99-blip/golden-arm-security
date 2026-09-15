@@ -1,0 +1,6 @@
+/* About-only local visual candidate; no source integration/publication approval. */
+body[data-page="about"] .about-illustration { margin:0 0 24px; width:100%; min-width:0; }
+body[data-page="about"] .about-illustration img { display:block; width:100%; max-width:100%; height:auto; aspect-ratio:1672 / 941; object-fit:contain; border-radius:0; }
+body[data-page="about"] #quality-assurance .about-illustration { margin:24px 0 0; }
+@media (max-width:600px) { body[data-page="about"] .about-illustration { margin-bottom:20px; } body[data-page="about"] #quality-assurance .about-illustration { margin-top:20px; } }
+@media (forced-colors:active) { body[data-page="about"] .about-illustration { outline:1px solid CanvasText; } }

@@ -1,0 +1,2 @@
+/* External note18: top-align all card copy, not one card. */
+body[data-page="industries"].site-types-final #site-type-atlas .industry-card__content{align-self:start!important;}

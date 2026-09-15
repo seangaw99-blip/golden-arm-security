@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://golden-arm-security-reveal-phi.vercel.app/sitemap.xml

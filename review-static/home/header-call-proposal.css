@@ -1,0 +1,14 @@
+/* External Home7 header-placement proposal; no other route is modified. */
+body[data-page="home"] .site-header .review-header-actions{display:contents;}
+body[data-page="home"] .site-header .review-header-call{display:none;}
+@media(min-width:981px){
+ body[data-page="home"] .site-header--client-feedback .nav-links{grid-template-columns:minmax(0,1fr) auto;}
+ body[data-page="home"] .site-header .review-header-actions{display:flex;gap:10px;align-items:center;justify-self:end;}
+ body[data-page="home"] .site-header .review-header-call{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;min-height:44px;padding:0 13px;border:1px solid #fff;background:#fff;color:#121212;font:700 13px/1.2 "Avenir Next",Arial,sans-serif;letter-spacing:.01em;text-transform:none;text-decoration:none;}
+ body[data-page="home"] .site-header .review-header-call::before{display:none;}
+ body[data-page="home"] .site-header .review-header-call:hover{background:#e7e7e7;border-color:#e7e7e7;}
+ body[data-page="home"] .site-header .review-header-call:focus-visible{outline:3px solid #feca06;outline-offset:3px;}
+ body[data-page="home"] .site-header .review-header-actions>.nav-direct--contact{display:inline-flex;align-items:center;justify-content:center;}
+ body[data-page="home"] .hero-contact-rail__phone{display:none!important;}
+ body[data-page="home"].homepage-candidate .hero-contact-rail{width:max-content!important;grid-template-columns:207.453125px!important;}
+}

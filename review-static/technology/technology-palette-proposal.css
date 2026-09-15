@@ -1,0 +1,8 @@
+/* External note14: selected B palette only; no layout or media edits. */
+body[data-page="technology"] #vantier{background:#22262a!important;color:#f7f8f9!important;}
+body[data-page="technology"] #vantier::before,body[data-page="technology"] #vantier::after{background:none!important;}
+body[data-page="technology"] #vantier .technology-kv-stage{background:transparent!important;}
+body[data-page="technology"] #vantier .technology-kv__copy,body[data-page="technology"] #vantier .technology-kv__copy h1{color:#f7f8f9!important;}
+body[data-page="technology"] #vantier .technology-kv__lede{color:#c1c6cb!important;}
+body[data-page="technology"] #vantier .technology-kv__art::before{background:linear-gradient(142deg,#ffffff14,#ffffff04 46%,#ffffff0a)!important;}
+@media(forced-colors:active){body[data-page="technology"] #vantier{background:Canvas!important;color:CanvasText!important;}body[data-page="technology"] #vantier .technology-kv__copy,body[data-page="technology"] #vantier .technology-kv__copy h1,body[data-page="technology"] #vantier .technology-kv__lede{color:CanvasText!important;}body[data-page="technology"] #vantier .technology-kv__art::before{background:none!important;}}

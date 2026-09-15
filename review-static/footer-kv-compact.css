@@ -1,0 +1,18 @@
+/* Shared footer-KV density pass. Original markup, copy, photo and CTA retained. */
+html body[data-page] .site-closing-banner.home-prefooter-kv{min-height:220px!important;height:auto!important;}
+html body[data-page] .site-closing-banner.home-prefooter-kv>.home-prefooter-kv__inner{min-height:0!important;height:auto!important;padding-block:32px!important;grid-template-columns:minmax(0,1fr) auto!important;grid-template-areas:"kicker action" "line action"!important;gap:10px 40px!important;align-content:center!important;align-items:center!important;}
+html body[data-page] .site-closing-banner.home-prefooter-kv>.home-prefooter-kv__inner>.section-kicker{grid-area:kicker!important;margin:0!important;}
+html body[data-page] .site-closing-banner.home-prefooter-kv .home-prefooter-kv__line{grid-area:line!important;max-width:none!important;width:auto!important;margin:0!important;font-size:clamp(30px,3.5vw,50px)!important;line-height:1.12!important;letter-spacing:-.025em!important;}
+html body[data-page] .site-closing-banner.home-prefooter-kv .home-prefooter-kv__action{grid-area:action!important;align-self:center!important;justify-self:end!important;min-height:52px!important;margin:0!important;}
+html body[data-page] .site-closing-banner[data-technology-security-banner]>.technology-security-banner__inner{grid-template-areas:"copy action"!important;}
+html body[data-page] .site-closing-banner .technology-security-banner__copy{grid-area:copy!important;max-width:820px!important;}
+html body[data-page] .site-closing-banner #technology-next-title{max-width:38ch!important;margin:8px 0 0!important;font-size:clamp(26px,2.5vw,36px)!important;line-height:1.14!important;letter-spacing:-.025em!important;}
+html body[data-page] .site-closing-banner .technology-security-banner__copy>.section-kicker{margin:0!important;}
+html body[data-page] .site-closing-banner .technology-security-banner__copy>p:not(.section-kicker){margin:12px 0 0!important;line-height:1.5!important;}
+@media(max-width:720px){
+ html body[data-page] .site-closing-banner.home-prefooter-kv{min-height:0!important;}
+ html body[data-page] .site-closing-banner.home-prefooter-kv>.home-prefooter-kv__inner{grid-template-columns:minmax(0,1fr)!important;grid-template-areas:"kicker" "line" "action"!important;padding-block:28px!important;gap:12px!important;}
+ html body[data-page] .site-closing-banner.home-prefooter-kv .home-prefooter-kv__action{justify-self:start!important;margin-top:6px!important;}
+ html body[data-page] .site-closing-banner[data-technology-security-banner]>.technology-security-banner__inner{grid-template-areas:"copy" "action"!important;gap:16px!important;}
+ html body[data-page] .site-closing-banner #technology-next-title{font-size:26px!important;max-width:none!important;}
+}

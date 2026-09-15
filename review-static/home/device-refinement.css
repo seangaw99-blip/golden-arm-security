@@ -1,0 +1,4 @@
+/* External optical integration; never paint over evidence. */
+body[data-page="home"] #technology,body[data-page="technology"] #vantier{background-color:#22262a!important;background-image:radial-gradient(ellipse at 26% 54%,rgba(167,190,209,.13),transparent 48%)!important;}
+body[data-page="technology"] #vantier .product-reuse-canvas picture::before,body[data-page="technology"] #vantier .product-reuse-canvas picture::after{content:none!important;display:none!important;}
+@media(forced-colors:active){body[data-page="home"] #technology,body[data-page="technology"] #vantier{background:Canvas!important;}}

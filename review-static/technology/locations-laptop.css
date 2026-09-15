@@ -1,0 +1,12 @@
+/* External note16: only the Locations illustration and its inspection control. */
+body[data-page="technology"] #technology-post-visibility figure,
+body[data-page="technology"] #technology-post-visibility .technology-feature-stage__plane{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important;overflow:visible!important;min-width:0!important;max-width:100%!important;transform:none!important;filter:none!important;perspective:none!important;}
+body[data-page="technology"] #technology-post-visibility figure::before,
+body[data-page="technology"] #technology-post-visibility figure::after,
+body[data-page="technology"] #technology-post-visibility .technology-feature-stage__plane::before,
+body[data-page="technology"] #technology-post-visibility .technology-feature-stage__plane::after{content:none!important;display:none!important;}
+body[data-page="technology"] #technology-post-visibility .locations-device-link{display:block;color:#584400;text-align:center;text-decoration:none;outline-offset:5px;}
+body[data-page="technology"] #technology-post-visibility .locations-device-link:focus-visible{outline:2px solid currentColor;}
+body[data-page="technology"] #technology-post-visibility .locations-device-link img{width:100%!important;height:auto!important;min-width:0!important;max-width:100%!important;max-height:none!important;aspect-ratio:1700/960!important;object-fit:contain!important;object-position:center!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important;transform:none!important;filter:none!important;opacity:1!important;}
+body[data-page="technology"] #technology-post-visibility .locations-device-link span{display:inline-block;margin-top:8px;font-size:14px;line-height:1.5;text-decoration:underline;text-underline-offset:3px;}
+@media(forced-colors:active){body[data-page="technology"] #technology-post-visibility .locations-device-link{color:LinkText;}}

@@ -1,0 +1,5 @@
+/* External note19: already-selected A / white-led Industries. */
+body[data-page="industries"].site-types-final #industries.industries{--industries-paper:#fff;--industries-ink:#202327;--industries-muted:#596067;background:#fff!important;box-shadow:0 0 0 100vmax #fff!important;clip-path:inset(0 -100vmax);}
+body[data-page="industries"].site-types-final #industries.industries .section-title,body[data-page="industries"].site-types-final #industries #site-type-atlas .industry-card__content h3{color:#202327!important;}
+body[data-page="industries"].site-types-final #industries.industries .section-kicker,body[data-page="industries"].site-types-final #industries.industries .section-lede,body[data-page="industries"].site-types-final #industries #site-type-atlas .industry-card__content p{color:#596067!important;}
+@media (forced-colors:active){body[data-page="industries"].site-types-final #industries.industries{background:Canvas!important;box-shadow:none!important;}body[data-page="industries"].site-types-final #industries.industries :is(h2,h3,p){color:CanvasText!important;}}
